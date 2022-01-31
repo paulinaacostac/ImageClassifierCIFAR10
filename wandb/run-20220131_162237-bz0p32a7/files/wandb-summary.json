@@ -1,0 +1,1 @@
+{"batch loss": 1.5359525680541992, "_runtime": 89, "_timestamp": 1643664246, "_step": 933, "val_loss": 1.9608679600539638, "epoch": 0, "avg_loss": 1.9520536965893625, "accuracy": 0.2781, "_wandb": {"runtime": 86}}

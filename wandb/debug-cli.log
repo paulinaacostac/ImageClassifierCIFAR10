@@ -1,0 +1,21 @@
+2022-01-31 11:37:37 INFO Running runs: []
+2022-01-31 11:37:41 INFO Agent received command: run
+2022-01-31 11:37:41 INFO Agent starting run with config:
+	learning_rate: 0.000978281746955754
+	optimizer: adam
+2022-01-31 11:37:41 INFO About to run command: /usr/bin/env python classifier_wandb.py --learning_rate=0.000978281746955754 --optimizer=adam
+2022-01-31 11:37:46 INFO Running runs: ['rwfihjum']
+2022-01-31 11:44:57 INFO Cleaning up finished run: rwfihjum
+2022-01-31 11:44:57 INFO Agent received command: run
+2022-01-31 11:44:57 INFO Agent starting run with config:
+	learning_rate: 0.0007285039609268398
+	optimizer: adam
+2022-01-31 11:44:57 INFO About to run command: /usr/bin/env python classifier_wandb.py --learning_rate=0.0007285039609268398 --optimizer=adam
+2022-01-31 11:45:02 INFO Running runs: ['tqws4024']
+2022-01-31 11:48:11 INFO Cleaning up finished run: tqws4024
+2022-01-31 11:48:13 INFO Agent received command: run
+2022-01-31 11:48:13 INFO Agent starting run with config:
+	learning_rate: 0.0007524197932810306
+	optimizer: adam
+2022-01-31 11:48:13 INFO About to run command: /usr/bin/env python classifier_wandb.py --learning_rate=0.0007524197932810306 --optimizer=adam
+2022-01-31 11:48:18 INFO Running runs: ['43t1jqjq']

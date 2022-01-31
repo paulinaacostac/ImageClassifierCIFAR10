@@ -1,0 +1,18 @@
+{
+    "os": "Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.5",
+    "heartbeatAt": "2022-01-31T18:18:19.663698",
+    "startedAt": "2022-01-31T18:18:18.370304",
+    "docker": null,
+    "gpu": "A100-SXM-80GB",
+    "gpu_count": 8,
+    "cpu_count": 256,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/classifier_wandb.py",
+    "codePath": "classifier_wandb.py",
+    "host": "c0907a-s17.ufhpc",
+    "username": "paulinaacostacev",
+    "executable": "/home/paulinaacostacev/miniconda3/bin/python3"
+}

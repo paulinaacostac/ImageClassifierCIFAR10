@@ -1,0 +1,270 @@
+2022-01-31 11:38:14,383 INFO    Thread-2  :22800 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,384 INFO    Thread-2  :22821 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,384 WARNING Thread-2  :22800 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,384 WARNING Thread-2  :22821 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,384 INFO    Thread-2  :22800 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,384 INFO    Thread-2  :22821 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,384 INFO    Thread-2  :22800 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,385 INFO    Thread-2  :22821 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,385 INFO    Thread-2  :22800 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,385 INFO    Thread-2  :22821 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,385 INFO    Thread-2  :22800 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,385 INFO    Thread-2  :22821 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,385 INFO    Thread-2  :22800 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,385 INFO    Thread-2  :22821 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,385 INFO    Thread-2  :22800 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,385 INFO    Thread-2  :22821 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,385 INFO    Thread-2  :22800 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,385 INFO    Thread-2  :22821 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,399 INFO    Thread-2  :22821 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,400 INFO    Thread-2  :22800 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,406 INFO    Thread-2  :22800 [backend.py:ensure_launched():221] started backend process with pid: 24615
+2022-01-31 11:38:14,407 INFO    Thread-2  :22821 [backend.py:ensure_launched():221] started backend process with pid: 24622
+2022-01-31 11:38:14,408 INFO    Thread-2  :22800 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,408 INFO    Thread-2  :22821 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,409 INFO    Thread-2  :22800 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,410 INFO    Thread-2  :22821 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,412 INFO    Thread-2  :22800 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,412 INFO    Thread-2  :22821 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,413 INFO    Thread-2  :22800 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,414 INFO    Thread-2  :22821 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,414 INFO    Thread-2  :22801 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,414 WARNING Thread-2  :22801 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,414 INFO    Thread-2  :22801 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,415 INFO    Thread-2  :22801 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,415 INFO    Thread-2  :22801 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,415 INFO    Thread-2  :22801 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,415 INFO    Thread-2  :22801 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,415 INFO    Thread-2  :22801 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,415 INFO    Thread-2  :22801 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,429 INFO    Thread-2  :22801 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,436 INFO    Thread-2  :22801 [backend.py:ensure_launched():221] started backend process with pid: 24642
+2022-01-31 11:38:14,437 INFO    Thread-2  :22801 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,438 INFO    Thread-2  :22801 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,440 INFO    Thread-2  :22801 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,442 INFO    Thread-2  :22801 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,455 WARNING Thread-2  :22799 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,455 INFO    Thread-2  :22799 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,456 INFO    Thread-2  :22799 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,469 INFO    Thread-2  :22799 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,475 INFO    Thread-2  :22799 [backend.py:ensure_launched():221] started backend process with pid: 24658
+2022-01-31 11:38:14,476 INFO    Thread-2  :22799 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,478 INFO    Thread-2  :22799 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,480 INFO    Thread-2  :22799 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,481 INFO    Thread-2  :22799 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,529 INFO    Thread-2  :22819 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,529 WARNING Thread-2  :22819 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,529 INFO    Thread-2  :22819 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,530 INFO    Thread-2  :22819 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,530 INFO    Thread-2  :22819 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,530 INFO    Thread-2  :22819 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,530 INFO    Thread-2  :22819 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,530 INFO    Thread-2  :22819 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,530 INFO    Thread-2  :22819 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,534 INFO    Thread-2  :22817 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,534 WARNING Thread-2  :22817 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,534 INFO    Thread-2  :22817 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,534 INFO    Thread-2  :22817 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,534 INFO    Thread-2  :22817 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,534 INFO    Thread-2  :22817 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,534 INFO    Thread-2  :22817 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,535 INFO    Thread-2  :22817 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,535 INFO    Thread-2  :22817 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,545 INFO    Thread-2  :22819 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,549 INFO    Thread-2  :22817 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,552 INFO    Thread-2  :22819 [backend.py:ensure_launched():221] started backend process with pid: 24689
+2022-01-31 11:38:14,553 INFO    Thread-2  :22819 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,555 INFO    Thread-2  :22819 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,557 INFO    Thread-2  :22819 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,557 INFO    Thread-2  :22817 [backend.py:ensure_launched():221] started backend process with pid: 24697
+2022-01-31 11:38:14,558 INFO    Thread-2  :22817 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,558 INFO    Thread-2  :22819 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,560 INFO    Thread-2  :22817 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,562 WARNING Thread-2  :22820 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,562 INFO    Thread-2  :22817 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,562 INFO    Thread-2  :22820 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,563 INFO    Thread-2  :22817 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,576 INFO    Thread-2  :22820 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,583 INFO    Thread-2  :22820 [backend.py:ensure_launched():221] started backend process with pid: 24714
+2022-01-31 11:38:14,585 INFO    Thread-2  :22820 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,587 INFO    Thread-2  :22820 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,589 INFO    Thread-2  :22820 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,590 INFO    Thread-2  :22820 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_setup.py:_flush():71] setting env: {'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'entity': 'paulina', 'project': 'ImageClassifierCIFAR10', 'run_id': 'rwfihjum', 'sweep_id': 'mjc1k0xo', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-mjc1k0xo/config-rwfihjum.yaml'}
+2022-01-31 11:38:14,646 WARNING Thread-2  :22812 [wandb_setup.py:_flush():71] could not save program above cwd: /home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug.log
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_113814-rwfihjum/logs/debug-internal.log
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_init.py:init():404] calling init triggers
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_init.py:init():409] wandb.init called with sweep_config: {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+config: {}
+2022-01-31 11:38:14,646 INFO    Thread-2  :22812 [wandb_init.py:init():460] starting backend
+2022-01-31 11:38:14,647 INFO    Thread-2  :22812 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 11:38:14,661 INFO    Thread-2  :22812 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 11:38:14,668 INFO    Thread-2  :22812 [backend.py:ensure_launched():221] started backend process with pid: 24730
+2022-01-31 11:38:14,670 INFO    Thread-2  :22812 [wandb_init.py:init():469] backend started and connected
+2022-01-31 11:38:14,672 INFO    Thread-2  :22812 [wandb_run.py:_config_callback():956] config_cb None None {'learning_rate': 0.000978281746955754, 'optimizer': 'adam'}
+2022-01-31 11:38:14,674 INFO    Thread-2  :22812 [wandb_init.py:init():533] updated telemetry
+2022-01-31 11:38:14,675 INFO    Thread-2  :22812 [wandb_init.py:init():563] communicating current version
+2022-01-31 11:38:16,301 INFO    Thread-2  :22821 [wandb_init.py:init():568] got version response 
+2022-01-31 11:38:16,301 INFO    Thread-2  :22821 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:16,442 INFO    Thread-2  :22821 [wandb_init.py:init():606] starting run threads in backend
+2022-01-31 11:38:18,470 INFO    Thread-2  :22821 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-31 11:38:18,471 INFO    Thread-2  :22821 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.REDIRECT
+2022-01-31 11:38:18,471 INFO    Thread-2  :22821 [wandb_run.py:_redirect():1689] Redirecting console.
+2022-01-31 11:38:18,472 ERROR   Thread-2  :22821 [wandb_run.py:_redirect():1748] Failed to redirect.
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1741, in _redirect
+    out_redir.install()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 709, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 659, in add_fd
+    self._register()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 644, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/signal.py", line 47, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-01-31 11:38:18,474 INFO    Thread-2  :22821 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-31 11:38:19,413 INFO    Thread-2  :22800 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,442 INFO    Thread-2  :22801 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,468 ERROR   Thread-2  :22801 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 579, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-01-31 11:38:19,482 INFO    Thread-2  :22799 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,491 ERROR   Thread-2  :22799 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 579, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-01-31 11:38:19,559 INFO    Thread-2  :22819 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,564 INFO    Thread-2  :22817 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,568 ERROR   Thread-2  :22819 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 579, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-01-31 11:38:19,573 ERROR   Thread-2  :22817 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 579, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-01-31 11:38:19,590 INFO    Thread-2  :22820 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,600 ERROR   Thread-2  :22820 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 579, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-01-31 11:38:19,676 INFO    Thread-2  :22812 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 11:38:19,690 ERROR   Thread-2  :22812 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 579, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-01-31 11:38:49,414 INFO    Thread-2  :22800 [interface_shared.py:_communicate_run():313] couldn't get run from backend
+2022-01-31 11:38:49,414 ERROR   Thread-2  :22800 [wandb_init.py:init():583] backend process timed out
+2022-01-31 11:38:49,414 ERROR   Thread-2  :22800 [wandb_init.py:init():592] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-01-31 11:38:49,431 ERROR   Thread-2  :22800 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 596, in init
+    backend.cleanup()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/backend/backend.py", line 245, in cleanup
+    self.interface.join()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 458, in join
+    super().join()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 599, in join
+    _ = self._communicate_shutdown()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 455, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

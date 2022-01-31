@@ -1,0 +1,27 @@
+{
+    "os": "Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.5",
+    "heartbeatAt": "2022-01-31T16:45:15.654881",
+    "startedAt": "2022-01-31T16:45:13.968148",
+    "docker": null,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [
+        "--node-ip-address=10.13.55.17",
+        "--node-manager-port=45791",
+        "--object-store-name=/tmp/ray/session_2022-01-31_11-45-05_983480_16081/sockets/plasma_store",
+        "--raylet-name=/tmp/ray/session_2022-01-31_11-45-05_983480_16081/sockets/raylet",
+        "--redis-address=10.13.55.17:6379",
+        "--temp-dir=/tmp/ray",
+        "--metrics-agent-port=57827",
+        "--logging-rotate-bytes=536870912",
+        "--logging-rotate-backup-count=5",
+        "--redis-password=5241590000000000",
+        "--startup-token=31"
+    ],
+    "state": "running",
+    "program": "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/ray/workers/default_worker.py",
+    "host": "login2.ufhpc",
+    "username": "paulinaacostacev",
+    "executable": "/home/paulinaacostacev/miniconda3/bin/python"
+}

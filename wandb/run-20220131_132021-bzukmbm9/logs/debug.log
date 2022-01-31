@@ -1,0 +1,140 @@
+2022-01-31 13:20:21,537 INFO    Thread-18 :72281 [wandb_setup.py:_flush():71] setting env: {'project': 'pytorch-sweeps-demo', 'entity': 'paulina', 'root_dir': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10', 'run_id': 'bzukmbm9', 'sweep_param_path': '/blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/sweep-lg5u5who/config-bzukmbm9.yaml', 'sweep_id': 'lg5u5who'}
+2022-01-31 13:20:21,537 INFO    Thread-18 :72281 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-31 13:20:21,537 INFO    Thread-18 :72281 [wandb_init.py:_log_setup():371] Logging user logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_132021-bzukmbm9/logs/debug.log
+2022-01-31 13:20:21,538 INFO    Thread-18 :72281 [wandb_init.py:_log_setup():372] Logging internal logs to /blue/fsaeed/paulinaacostacev/ImageClassifierCIFAR10/wandb/run-20220131_132021-bzukmbm9/logs/debug-internal.log
+2022-01-31 13:20:21,538 INFO    Thread-18 :72281 [wandb_init.py:init():404] calling init triggers
+2022-01-31 13:20:21,538 INFO    Thread-18 :72281 [wandb_init.py:init():409] wandb.init called with sweep_config: {'batch_size': 55, 'epochs': 1, 'layer1_size': 512, 'layer2_size': 128, 'learning_rate': 0.010255070164339087, 'optimizer': 'sgd'}
+config: {}
+2022-01-31 13:20:21,538 INFO    Thread-18 :72281 [wandb_init.py:init():460] starting backend
+2022-01-31 13:20:21,538 INFO    Thread-18 :72281 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-01-31 13:20:21,540 INFO    Thread-18 :72281 [backend.py:ensure_launched():216] starting backend process...
+2022-01-31 13:20:21,563 INFO    Thread-18 :72281 [backend.py:ensure_launched():221] started backend process with pid: 86463
+2022-01-31 13:20:21,564 INFO    Thread-18 :72281 [wandb_init.py:init():469] backend started and connected
+2022-01-31 13:20:21,565 INFO    Thread-18 :72281 [wandb_run.py:_config_callback():956] config_cb None None {'batch_size': 55, 'epochs': 1, 'layer1_size': 512, 'layer2_size': 128, 'learning_rate': 0.010255070164339087, 'optimizer': 'sgd'}
+2022-01-31 13:20:21,567 INFO    Thread-18 :72281 [wandb_init.py:init():533] updated telemetry
+2022-01-31 13:20:21,568 INFO    Thread-18 :72281 [wandb_init.py:init():563] communicating current version
+2022-01-31 13:20:22,636 INFO    Thread-18 :72281 [wandb_init.py:init():568] got version response 
+2022-01-31 13:20:22,637 INFO    Thread-18 :72281 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-31 13:20:22,789 INFO    Thread-18 :72281 [wandb_init.py:init():606] starting run threads in backend
+2022-01-31 13:20:24,698 INFO    Thread-18 :72281 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-31 13:20:24,699 INFO    Thread-18 :72281 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.REDIRECT
+2022-01-31 13:20:24,699 INFO    Thread-18 :72281 [wandb_run.py:_redirect():1689] Redirecting console.
+2022-01-31 13:20:24,699 ERROR   Thread-18 :72281 [wandb_run.py:_redirect():1748] Failed to redirect.
+Traceback (most recent call last):
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1741, in _redirect
+    out_redir.install()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 709, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 659, in add_fd
+    self._register()
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 644, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/home/paulinaacostacev/miniconda3/lib/python3.9/signal.py", line 47, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-01-31 13:20:24,699 INFO    Thread-18 :72281 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-31 13:20:55,244 INFO    Thread-18 :72281 [wandb_run.py:finish():1457] finishing run paulina/pytorch-sweeps-demo/bzukmbm9
+2022-01-31 13:20:55,244 INFO    Thread-18 :72281 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 1
+2022-01-31 13:20:55,245 INFO    Thread-18 :72281 [wandb_run.py:_restore():1752] restore
+2022-01-31 13:20:55,313 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 604
+  total_bytes: 604
+}
+
+2022-01-31 13:20:55,682 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 604
+  total_bytes: 604
+}
+
+2022-01-31 13:20:55,828 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 604
+  total_bytes: 604
+}
+
+2022-01-31 13:20:55,929 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 604
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,030 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 5661
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,131 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,232 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,332 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,433 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,534 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:56,806 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+
+2022-01-31 13:20:57,208 INFO    Thread-18 :72281 [wandb_run.py:_wait_for_finish():1912] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7762
+  total_bytes: 7762
+}
+local_info {
+}
+
+2022-01-31 13:20:58,305 INFO    Thread-18 :72281 [wandb_run.py:_append_files():2180] logging synced files
