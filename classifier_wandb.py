@@ -10,11 +10,8 @@ import torch.optim as optim
 from torch.utils.data import random_split
 import torchvision
 import torchvision.transforms as transforms
-from ray import tune
-from ray.tune import CLIReporter
-from ray.tune.schedulers import ASHAScheduler
-import wandb
 import math
+import wandb
 
 def load_data(data_dir="./data"):
     transform = transforms.Compose([
@@ -61,6 +58,7 @@ def train_cifar(config=None):
     #wandb.init(project="testProj", entity="paulina")
     #wandb.run.name = "CNN l1:"+str(config["l1"])+" l2:"+str(config["l2"])+" lr:"+str(config["lr"])+" bs:"+str(config["batch_size"])
     with wandb.init(config=config):
+        print("this config: ",str(config))
         wandb.name = "Sweep "+str(config)
         config = wandb.config
         #net = Net(config["l1"], config["l2"])
@@ -92,6 +90,8 @@ def train_cifar(config=None):
             batch_size=int(config.batch_size),
             shuffle=True,
             num_workers=8)
+
+        print(len(trainloader))
 
         for epoch in range(config.epochs):  # loop over the dataset multiple times
             running_loss = 0.0
